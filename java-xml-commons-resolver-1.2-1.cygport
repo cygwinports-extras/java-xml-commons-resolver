@@ -1,0 +1,12 @@
+inherit ant
+
+DESCRIPTION="Java XML entity resolver"
+HOMEPAGE="http://xml.apache.org/commons/"
+SRC_URI="mirror://apache/xml/commons/${ORIG_PN}-${PV}.tar.gz"
+
+ANT_BUILD_XML="resolver.xml"
+ANT_BUILD_TARGETS="jar javadocs"
+ANT_INSTALL_JARS="build/resolver.jar"
+ANT_INSTALL_JAVADOC="build/apidocs/resolver"
+
+DOCS="LICENSE* NOTICE*"

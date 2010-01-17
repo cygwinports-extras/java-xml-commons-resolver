@@ -1,0 +1,5 @@
+category: Java
+sdesc: "Java XML entity resolver library"
+ldesc: "The Apache XML Commons Resolver classes implement Catalog-based 
+entity and URI resolution. It also includes a framework of classes 
+designed to read catalog files in a number of formats."
